@@ -31,7 +31,7 @@ include ':play-services-tasks'
 include ':fake-signature'
 include ':play-services-api'
 include ':play-services'
-
+include ':play-services-drive'
 // core only
 
 include ':play-services-core-proto'
