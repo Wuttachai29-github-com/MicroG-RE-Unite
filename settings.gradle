@@ -17,7 +17,7 @@ def hasModule = (String name, boolean enabledByDefault) -> {
 }
 
 include ':safe-parcel-processor'
-
+include ':play-services-games'
 include ':play-services-auth'
 include ':play-services-auth-base'
 include ':play-services-base'
