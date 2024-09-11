@@ -86,6 +86,7 @@ public class PackageUtils {
         KNOWN_GOOGLE_PACKAGES.put("com.google.android.apps.magazines", "bd32424203e0fb25f36b57e5aa356f9bdd1da998");
         KNOWN_GOOGLE_PACKAGES.put("com.google.android.apps.photos", "f8456b1d9996acf9ce21fb450b0d32b895f36885");
         KNOWN_GOOGLE_PACKAGES.put("com.google.android.play.games", "38918a453d07199354f8b19af05ec6562ced5788");
+        KNOWN_GOOGLE_PACKAGES.put("com.google.android.googlequicksearchbox", "38918a453d07199354f8b19af05ec6562ced5788");
     }
 
     public static boolean isGooglePackage(Context context, String packageName) {
@@ -147,6 +148,8 @@ public class PackageUtils {
         } else if (packageName.endsWith(".magazines")) {
             return "bd32424203e0fb25f36b57e5aa356f9bdd1da998";
         } else if (packageName.endsWith(".play.games")) {
+            return "38918a453d07199354f8b19af05ec6562ced5788";
+        } else if (packageName.endsWith(".googlequicksearchbox")) {
             return "38918a453d07199354f8b19af05ec6562ced5788";
         }
 
