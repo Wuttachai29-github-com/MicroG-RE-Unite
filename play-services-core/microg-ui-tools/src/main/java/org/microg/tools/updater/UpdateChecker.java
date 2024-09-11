@@ -24,8 +24,8 @@ import okhttp3.ResponseBody;
 
 public class UpdateChecker {
 
-    private static final String GITHUB_API_URL = "https://api.github.com/repos/WSTxda/MicroG-RE/releases/latest";
-    private static final String GITHUB_RELEASE_LINK = "https://github.com/WSTxda/MicroG-RE/releases/latest";
+    private static final String GITHUB_API_URL = "https://api.github.com/repos/Lobanokivan11/MicroG-RE-Unite/releases/latest";
+    private static final String GITHUB_RELEASE_LINK = "https://github.com/Lobanokivan11/MicroG-RE-Unite/releases/latest";
     private static final String ERROR_NO_RESPONSE = "ERROR_NO_RESPONSE";
 
     private final WeakReference<Context> contextRef;
