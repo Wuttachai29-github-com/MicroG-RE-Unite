@@ -28,7 +28,7 @@ include ':play-services-gcm'
 include ':play-services-gmscompliance'
 include ':play-services-iid'
 include ':play-services-tasks'
-
+include ':fake-signature'
 include ':play-services-api'
 include ':play-services'
 
